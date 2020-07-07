@@ -1,0 +1,8 @@
+num_features : ['spend_total', 'spend_data', 'spend_vas', 'spend_voice', 'age', 'customer_class', 'loan_propensity', 'ctr_score_2']
+cat_features : ['os_name', 'device_manufacturer', 'gender', 'customer_value', 'location_state', 'device_type']
+low_cat : ['gender', 'customer_value', 'device_type']
+target : ['event_type']
+not_urgent : ['campaign_name', 'location_lga']
+time : ['captured_time']
+input_col : ['msisdn', 'spend_total', 'spend_data', 'spend_vas', 'spend_voice', 'age', 'os_name', 'device_manufacturer', 'gender', 'customer_value', 'customer_class', 'location_state', 'device_type', 'loan_propensity', 'ctr_score_2']
+ID : ['msisdn']
